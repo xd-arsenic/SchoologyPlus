@@ -2749,3 +2749,14 @@ img#loader {
 .s-js-comment-action-links.sActionLinksVisible > .action-links-wrapper.action-links-wrapper-junior.aligned-right > .action-links-unfold { /* Changes Color When Hovered Over */
     background-color: var(--accent) !important;
 }
+
+/* Fix For "currently Unavailable" Page */
+
+.container {
+    background: var(--accent) !important;
+}
+
+.home > #display_message > #main {
+    padding-bottom: 410px !important;
+    margin-bottom: none !important
+}
